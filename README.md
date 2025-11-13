@@ -26,7 +26,7 @@ Contains hourly data on:
 
 ### 2. Weather Dataset (weather_features.csv)
 Hourly weather data for five major Spanish cities:
-- *Barcelona, **Bilbao, **Madrid, **Seville, and **Valencia*  
+- **Barcelona**, **Bilbao**, **Madrid**, **Seville**, and **Valencia**  
 Features include:
 - Temperature, Pressure, Humidity, Wind speed, Rainfall, and Cloud coverage.
 
@@ -36,7 +36,7 @@ Features include:
 - Removed columns with all zero or NaN values.  
 - Interpolated missing values using *linear interpolation*.  
 - Merged energy and weather datasets based on timestamps.  
-- Added *hour, **weekday, **month, and **year* as temporal features.  
+- Added **hour**, **weekday**, **month**, and **year** as temporal features.  
 - Normalized data for better model convergence.  
 - Applied *PCA (Principal Component Analysis)* for dimensionality reduction, retaining *80% variance*.  
 
@@ -103,17 +103,7 @@ Both models tracked general trends accurately.
 *Libraries & Tools:*  
 - NumPy, Pandas, Matplotlib, Seaborn, Plotly  
 - Scikit-learn, Statsmodels, XGBoost, TensorFlow, Keras  
-
-
-
-## 📂 Project Structure
-├── energy_dataset.csv *
-├── weather_features.csv*
-├── Electric_Demand_Forecasting.ipynb
-├── models/
-│   ├── xgboost_model.pkl
-│   └── lstm_model.h5
-└── README.md 
+----
 
 ## 📊 Results Visualization
 - *Correlation Heatmaps* — Identified dependencies among features.  
