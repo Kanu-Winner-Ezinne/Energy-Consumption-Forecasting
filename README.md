@@ -104,7 +104,27 @@ Both models tracked general trends accurately.
 - NumPy, Pandas, Matplotlib, Seaborn, Plotly  
 - Scikit-learn, Statsmodels, XGBoost, TensorFlow, Keras  
 
----
+
 
 ## 📂 Project Structure
+├── energy_dataset.csv *
+├── weather_features.csv*
+├── Electric_Demand_Forecasting.ipynb
+├── models/
+│   ├── xgboost_model.pkl
+│   └── lstm_model.h5
+└── README.md 
+
+## 📊 Results Visualization
+- *Correlation Heatmaps* — Identified dependencies among features.  
+- *Seasonal Decomposition* — Highlighted trend and seasonality in price data.  
+- *Price Comparison* — Visualized day-ahead vs actual electricity prices.  
+- *Train/Validation/Test Split Visualization* — Clear separation for unbiased evaluation.
+
+---
+
+## 👩‍💻 Author
+*Kanu Winner Ezinne*  
+Department of Mathematical Engineering, University of L’Aquila  
+🎓 Aspiring Data Scientist passionate about Energy Analytics and AI
 
