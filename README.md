@@ -116,5 +116,5 @@ Both models tracked general trends accurately.
 ## 👩‍💻 Author
 *Kanu Winner Ezinne*  
 Department of Mathematical Engineering, University of L’Aquila  
-🎓 Aspiring Data Scientist passionate about Energy Analytics and AI
+🎓 Aspiring Data Scientist passionate 
 
